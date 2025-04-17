@@ -129,7 +129,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any queries or support, please reach out to us at [contact information]
+For any queries or support, please reach out to us at:
+![Sahil Gurnani](sahilgurnani20@gmail.com)
+![Prayag Tandon](prayagtandon2010@gmail.com)
 
 ## Acknowledgments
 
