@@ -161,10 +161,6 @@ function MainContent() {
     }
   }
 
-
-
-
-
   const handleGenerateClick = () => {
     if (prompt.trim()) {
       generateImage(prompt);
@@ -172,6 +168,7 @@ function MainContent() {
       alert('Please enter a prompt!');
     }
   };
+
   const handleUploadToPinata = async () => {
     if (!generatedImage) {
       alert('No image generated to upload.');
@@ -214,7 +211,6 @@ function MainContent() {
       alert('An error occurred while uploading the JSON to Pinata.');
     }
   };
-
 
   const handleDownloadImage = () => {
     if (generatedImage) {
@@ -325,8 +321,18 @@ function MainContent() {
             fontSize: { xs: '2rem', md: '2.5rem' },
           }}
         >
-          <p>AIBL <br />
-            (Where AI's creativity meets Blockchain security)</p>
+          <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'start', gap: '1rem' }}>
+            <img
+              src={require('./shared-image.png')}
+              alt="NFTiT Logo"
+              style={{
+                width: '200px',
+                height: 'auto',
+                marginBottom: '1rem'
+              }}
+            />
+            <p>Create. Mint. Own. It's that simple</p>
+          </Box>
         </Typography>
 
         {/* Text Box */}
@@ -482,10 +488,10 @@ function MainContent() {
             color="secondary"
             onClick={handleDownloadImage}
             sx={{
-              background: 'linear-gradient(45deg, #f48fb1 30%, #f06292 90%)',
-              boxShadow: '0 3px 5px 2px rgba(244, 143, 177, .3)',
+              background: 'linear-gradient(45deg, #64b5f6 30%, #4caf50 60%)',
+              boxShadow: '0 3px 5px 2px rgba(139, 117, 247, 0.3)',
               '&:hover': {
-                background: 'linear-gradient(45deg, #f06292 30%, #ec407a 90%)',
+                background: 'linear-gradient(45deg, #4caf50 30%, #64b5f6 90%)',
               },
               minWidth: '150px',
             }}

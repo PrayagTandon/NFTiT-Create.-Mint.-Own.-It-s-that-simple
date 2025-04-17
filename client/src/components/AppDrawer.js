@@ -15,7 +15,6 @@ import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import StorageIcon from '@mui/icons-material/Storage';
 import TokenIcon from '@mui/icons-material/Token';
 import UploadIcon from '@mui/icons-material/Upload';
-import ImageIcon from '@mui/icons-material/Image';
 import { useNavigate, useLocation } from 'react-router-dom';
 
 const DRAWER_WIDTH = 240;
@@ -95,7 +94,7 @@ const AppDrawer = () => {
           }}
         >
           <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
-            AIBL
+            NFTiT - Create.Own.Mint
           </Typography>
         </Box>
         <List>
